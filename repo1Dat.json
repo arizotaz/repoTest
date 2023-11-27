@@ -20,7 +20,9 @@
             "app":{
                 "windows":{
                     "version":"1.0.1",
-                    "download":"downloadurl",
+                    "download":[
+                        {"url":"zip.zip","location":"zip.zip","unzip":true,"post":false}
+                    ],
                     "startOptions":{
                         "default":[
                             "app.exe",
@@ -43,7 +45,9 @@
                 },
                 "mac":{
                     "version":"1.0.0",
-                    "download":"downloadMac",
+                    "download":[
+                        {"url":"zip.zip","location":"zip.zip","unzip":true,"post":false}
+                    ],
                     "startOptions":{
                         "default":[
                             "app.app",
